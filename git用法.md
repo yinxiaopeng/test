@@ -28,3 +28,13 @@ git branch
 
 # 10.创建新分支
 git branch new-feature
+
+# 11.切换到新分支
+git checkout new-feature
+
+# 12.创建并切换到新分支
+git checkout -b new-feature
+
+# 13.合并新分支到主分支
+git checkout master
+git merge new-feature
