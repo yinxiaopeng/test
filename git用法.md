@@ -38,3 +38,7 @@ git checkout -b new-feature
 # 13.合并新分支到主分支 将new-feature分支的变更合并到master分支
 git checkout master
 git merge new-feature
+
+# 14.删除分支
+git branch -d new-feature
+git branch -D new-feature 不做任何检查，强制删除
