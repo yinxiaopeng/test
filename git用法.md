@@ -35,6 +35,6 @@ git checkout new-feature
 # 12.创建并切换到新分支
 git checkout -b new-feature
 
-# 13.合并新分支到主分支
+# 13.合并新分支到主分支 将new-feature分支的变更合并到master分支
 git checkout master
 git merge new-feature
